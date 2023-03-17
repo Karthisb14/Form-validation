@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./Stylesheet/SignUp.css">
+</head>
+<body>
+    <div class="FullBorder">
+        <div class="Heading">
+            <h1 class="title">SIGN UP</h1>
+            <h1 class="subtitle">Create your account</h1>
+        </div>
+        <form id="myform">
+            
+            <div class="row">
+                <div class="name">
+                    <label for="firstname">First Name</label>           
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="firstname" name="FirstName">
+                    <div id="fnameerror" class="error"></div>
+                </div>
+                <div class="name">
+                    <label for="lastname">Last Name</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="lastname" name="LastName">    
+                    <div id="lnameerror" class="error"></div>
+
+                </div>
+                <div class="name">
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="email" name="email">  
+                    <div id="emailerror" class="error"></div>
+                </div>
+                <div class="name">
+                    <label for="password">Password</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="password" name="password">  
+                    <div id="pwderror" class="error"></div>
+                </div>
+                <div class="name">
+                    <label for="telephone">Phone Number</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="telephone" name="telephone"> 
+                    <div id="phoneerror" class="error"></div>
+                </div>
+                <div class="btn-login">
+                    <input type="submit" value="login" id="createaccount">
+                </div>
+            </div>
+            
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
